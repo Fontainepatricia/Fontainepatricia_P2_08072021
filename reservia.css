@@ -1,0 +1,118 @@
+
+
+/* Définition des polices personnalisées */
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('polices/raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('polices/raleway-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background-color: #F2F2F2;
+    }
+
+#bloc_page body
+{
+    width: 900px;
+    margin: auto;
+}
+
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    text-decoration: none;
+    color:#DEEBFF;
+    font-size: 15px;
+    justify-content: flex-end;
+    background-color: #FFFFF;
+    padding: 25px;
+    margin: 5px;
+
+}
+
+nav li
+{
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.2em;
+     color: #0065FC;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #0065FC;
+    border-bottom: 2px solid #0065FC;
+}
+
+
+.boutons-en-ligne {
+   display: inline-block;
+   width: 10em;
+   height: 50px;
+   text-align: center!important;
+    margin: 0 2%;
+   border: 1px #D3D3D3;
+   border-radius: 1em;
+   background-color: white;
+   box-shadow: inset 2px 2px 5px 5px gray;
+}
+
+header
+{
+    background: url('images/logo/Reservia.png') repeat-x bottom;
+    display: flex;
+    justify-content:space-between ;
+    align-items: flex-end;
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: right;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo img
+{
+    width: 59px;
+    height: 60px;
+}
+
+header h1
+{
+    font-family: 'ralewaythin', serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 0 0 0 0px;
+}
+
+header h2
+{
+    font-family: 'ralewaythin', serif;
+    font-size: 1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+
+/* Footer */
+
